@@ -1,0 +1,554 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Bfriedman/.nvm/versions/node/v6.11.1/bin/node',
+1 verbose cli   '/Users/Bfriedman/.nvm/versions/node/v6.11.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'tree-sitter-bogl' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData tree-sitter-bogl
+8 silly fetchNamedPackageData tree-sitter-bogl
+9 silly mapToRegistry name tree-sitter-bogl
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'tree-sitter-bogl',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'tree-sitter-bogl',
+12 silly mapToRegistry   name: 'tree-sitter-bogl',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/tree-sitter-bogl
+14 verbose request uri https://registry.npmjs.org/tree-sitter-bogl
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 8:06:26 PM
+17 verbose request using bearer token for auth
+18 verbose request id 9d4f7b9073f90b29
+19 http request GET https://registry.npmjs.org/tree-sitter-bogl
+20 http 200 https://registry.npmjs.org/tree-sitter-bogl
+21 verbose headers { date: 'Thu, 18 Mar 2021 03:06:26 GMT',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=df583a6113ae74a51c375051d17be14fa1616036786; expires=Sat, 17-Apr-21 03:06:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '631b3ebdbf0402b8-SEA',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: 'W/"17dd192ff6b1fb9d5e29d26aeaeb1490"',
+21 verbose headers   'last-modified': 'Thu, 18 Mar 2021 02:30:35 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   'cf-cache-status': 'REVALIDATED',
+21 verbose headers   'cf-request-id': '08e4e58a98000002b855b5c000000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare',
+21 verbose headers   'content-encoding': 'gzip' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Thu, 18 Mar 2021 03:06:26 GMT',
+22 silly get     'content-type': 'application/json',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=df583a6113ae74a51c375051d17be14fa1616036786; expires=Sat, 17-Apr-21 03:06:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '631b3ebdbf0402b8-SEA',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: 'W/"17dd192ff6b1fb9d5e29d26aeaeb1490"',
+22 silly get     'last-modified': 'Thu, 18 Mar 2021 02:30:35 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     'cf-cache-status': 'REVALIDATED',
+22 silly get     'cf-request-id': '08e4e58a98000002b855b5c000000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare',
+22 silly get     'content-encoding': 'gzip' } ]
+23 verbose get saving tree-sitter-bogl to /Users/Bfriedman/.npm/registry.npmjs.org/tree-sitter-bogl/.cache.json
+24 verbose correctMkdir /Users/Bfriedman/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule tree-sitter-bogl@0.3.7 checking installable status
+38 silly cache add args [ 'tree-sitter-bogl', null ]
+39 verbose cache add spec tree-sitter-bogl
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'tree-sitter-bogl',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'tree-sitter-bogl',
+40 silly cache add   name: 'tree-sitter-bogl',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed tree-sitter-bogl@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for tree-sitter-bogl
+43 info addNameTag [ 'tree-sitter-bogl', 'latest' ]
+44 silly mapToRegistry name tree-sitter-bogl
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'tree-sitter-bogl',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'tree-sitter-bogl',
+47 silly mapToRegistry   name: 'tree-sitter-bogl',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/tree-sitter-bogl
+49 verbose addNameTag registry:https://registry.npmjs.org/tree-sitter-bogl not in flight; fetching
+50 verbose get https://registry.npmjs.org/tree-sitter-bogl not expired, no request
+51 silly addNameTag next cb for tree-sitter-bogl with tag latest
+52 silly addNamed tree-sitter-bogl@0.3.7
+53 verbose addNamed "0.3.7" is a plain semver version for tree-sitter-bogl
+54 silly cache afterAdd tree-sitter-bogl@0.3.7
+55 verbose afterAdd /Users/Bfriedman/.npm/tree-sitter-bogl/0.3.7/package/package.json not in flight; writing
+56 verbose correctMkdir /Users/Bfriedman/.npm correctMkdir not in flight; initializing
+57 verbose afterAdd /Users/Bfriedman/.npm/tree-sitter-bogl/0.3.7/package/package.json written
+58 silly fetchNamedPackageData nan
+59 silly mapToRegistry name nan
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'nan',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'nan',
+62 silly mapToRegistry   name: 'nan',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/nan
+64 verbose request uri https://registry.npmjs.org/nan
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 8:06:27 PM
+67 verbose request using bearer token for auth
+68 verbose etag W/"ac38f6c9400be015a896aa94515b9385"
+69 verbose lastModified Tue, 13 Oct 2020 12:49:58 GMT
+70 http request GET https://registry.npmjs.org/nan
+71 http 304 https://registry.npmjs.org/nan
+72 verbose headers { date: 'Thu, 18 Mar 2021 03:06:27 GMT',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'set-cookie': [ '__cfduid=dfc62941f91a52b15e132eae1767891791616036787; expires=Sat, 17-Apr-21 03:06:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+72 verbose headers   'cf-ray': '631b3ebf094102b8-SEA',
+72 verbose headers   age: '544',
+72 verbose headers   'cache-control': 'public, max-age=300',
+72 verbose headers   etag: '"ac38f6c9400be015a896aa94515b9385"',
+72 verbose headers   'last-modified': 'Tue, 13 Oct 2020 12:49:58 GMT',
+72 verbose headers   vary: 'Accept-Encoding',
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'cf-request-id': '08e4e58b66000002b863220000000001',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   server: 'cloudflare' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Thu, 18 Mar 2021 03:06:27 GMT',
+73 silly get     connection: 'keep-alive',
+73 silly get     'set-cookie': [ '__cfduid=dfc62941f91a52b15e132eae1767891791616036787; expires=Sat, 17-Apr-21 03:06:27 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+73 silly get     'cf-ray': '631b3ebf094102b8-SEA',
+73 silly get     age: '544',
+73 silly get     'cache-control': 'public, max-age=300',
+73 silly get     etag: '"ac38f6c9400be015a896aa94515b9385"',
+73 silly get     'last-modified': 'Tue, 13 Oct 2020 12:49:58 GMT',
+73 silly get     vary: 'Accept-Encoding',
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'cf-request-id': '08e4e58b66000002b863220000000001',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     server: 'cloudflare' } ]
+74 verbose etag https://registry.npmjs.org/nan from cache
+75 verbose get saving nan to /Users/Bfriedman/.npm/registry.npmjs.org/nan/.cache.json
+76 verbose correctMkdir /Users/Bfriedman/.npm correctMkdir not in flight; initializing
+77 silly resolveWithNewModule nan@2.14.2 checking installable status
+78 silly cache add args [ 'nan@^2.14.1', null ]
+79 verbose cache add spec nan@^2.14.1
+80 silly cache add parsed spec Result {
+80 silly cache add   raw: 'nan@^2.14.1',
+80 silly cache add   scope: null,
+80 silly cache add   escapedName: 'nan',
+80 silly cache add   name: 'nan',
+80 silly cache add   rawSpec: '^2.14.1',
+80 silly cache add   spec: '>=2.14.1 <3.0.0',
+80 silly cache add   type: 'range' }
+81 silly addNamed nan@>=2.14.1 <3.0.0
+82 verbose addNamed ">=2.14.1 <3.0.0" is a valid semver range for nan
+83 silly addNameRange { name: 'nan', range: '>=2.14.1 <3.0.0', hasData: false }
+84 silly mapToRegistry name nan
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry data Result {
+87 silly mapToRegistry   raw: 'nan',
+87 silly mapToRegistry   scope: null,
+87 silly mapToRegistry   escapedName: 'nan',
+87 silly mapToRegistry   name: 'nan',
+87 silly mapToRegistry   rawSpec: '',
+87 silly mapToRegistry   spec: 'latest',
+87 silly mapToRegistry   type: 'tag' }
+88 silly mapToRegistry uri https://registry.npmjs.org/nan
+89 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+90 verbose get https://registry.npmjs.org/nan not expired, no request
+91 silly addNameRange number 2 { name: 'nan', range: '>=2.14.1 <3.0.0', hasData: true }
+92 silly addNameRange versions [ 'nan',
+92 silly addNameRange   [ '0.3.0-wip',
+92 silly addNameRange     '0.3.0-wip2',
+92 silly addNameRange     '0.3.0',
+92 silly addNameRange     '0.3.1',
+92 silly addNameRange     '0.3.2',
+92 silly addNameRange     '0.4.0',
+92 silly addNameRange     '0.4.1',
+92 silly addNameRange     '0.4.2',
+92 silly addNameRange     '0.4.3',
+92 silly addNameRange     '0.4.4',
+92 silly addNameRange     '0.5.0',
+92 silly addNameRange     '0.5.1',
+92 silly addNameRange     '0.5.2',
+92 silly addNameRange     '0.6.0',
+92 silly addNameRange     '0.7.0',
+92 silly addNameRange     '0.7.1',
+92 silly addNameRange     '0.8.0',
+92 silly addNameRange     '1.0.0',
+92 silly addNameRange     '1.1.0',
+92 silly addNameRange     '1.1.1',
+92 silly addNameRange     '1.1.2',
+92 silly addNameRange     '1.2.0',
+92 silly addNameRange     '1.3.0',
+92 silly addNameRange     '1.4.0',
+92 silly addNameRange     '1.4.1',
+92 silly addNameRange     '1.5.0',
+92 silly addNameRange     '1.4.2',
+92 silly addNameRange     '1.4.3',
+92 silly addNameRange     '1.5.1',
+92 silly addNameRange     '1.5.2',
+92 silly addNameRange     '1.6.0',
+92 silly addNameRange     '1.5.3',
+92 silly addNameRange     '1.6.1',
+92 silly addNameRange     '1.6.2',
+92 silly addNameRange     '1.7.0',
+92 silly addNameRange     '1.8.0',
+92 silly addNameRange     '1.8.1',
+92 silly addNameRange     '1.8.2',
+92 silly addNameRange     '1.8.3',
+92 silly addNameRange     '1.8.4',
+92 silly addNameRange     '1.9.0',
+92 silly addNameRange     '2.0.0',
+92 silly addNameRange     '2.0.1',
+92 silly addNameRange     '2.0.2',
+92 silly addNameRange     '2.0.3',
+92 silly addNameRange     '2.0.4',
+92 silly addNameRange     '2.0.5',
+92 silly addNameRange     '2.0.6',
+92 silly addNameRange     '2.0.7',
+92 silly addNameRange     '2.0.8',
+92 silly addNameRange     '2.0.9',
+92 silly addNameRange     '2.1.0',
+92 silly addNameRange     '2.2.0',
+92 silly addNameRange     '2.2.1',
+92 silly addNameRange     '2.3.0',
+92 silly addNameRange     '2.3.1',
+92 silly addNameRange     '2.3.2',
+92 silly addNameRange     '2.3.3',
+92 silly addNameRange     '2.3.4',
+92 silly addNameRange     '2.3.5',
+92 silly addNameRange     '2.4.0',
+92 silly addNameRange     '2.5.0',
+92 silly addNameRange     '2.5.1',
+92 silly addNameRange     '2.6.0',
+92 silly addNameRange     '2.6.1',
+92 silly addNameRange     '2.6.2',
+92 silly addNameRange     '2.7.0',
+92 silly addNameRange     '2.8.0',
+92 silly addNameRange     '2.9.1',
+92 silly addNameRange     '2.9.2',
+92 silly addNameRange     '2.10.0',
+92 silly addNameRange     '2.11.0',
+92 silly addNameRange     '2.11.1',
+92 silly addNameRange     '2.12.0',
+92 silly addNameRange     '2.12.1',
+92 silly addNameRange     '2.13.0',
+92 silly addNameRange     '2.13.1',
+92 silly addNameRange     '2.13.2',
+92 silly addNameRange     '2.14.0',
+92 silly addNameRange     '2.14.1',
+92 silly addNameRange     '2.14.2' ] ]
+93 silly addNamed nan@2.14.2
+94 verbose addNamed "2.14.2" is a plain semver version for nan
+95 silly cache afterAdd nan@2.14.2
+96 verbose afterAdd /Users/Bfriedman/.npm/nan/2.14.2/package/package.json not in flight; writing
+97 verbose correctMkdir /Users/Bfriedman/.npm correctMkdir not in flight; initializing
+98 verbose afterAdd /Users/Bfriedman/.npm/nan/2.14.2/package/package.json written
+99 silly loadAllDepsIntoIdealTree Finishing
+100 silly loadIdealTree Finishing
+101 silly currentTree language-bogl@0.1.0
+102 silly idealTree language-bogl@0.1.0
+102 silly idealTree ├── nan@2.14.2
+102 silly idealTree └── tree-sitter-bogl@0.3.7
+103 silly generateActionsToTake Starting
+104 silly install generateActionsToTake
+105 silly generateActionsToTake Finishing
+106 silly diffTrees action count 2
+107 silly diffTrees add nan@2.14.2
+108 silly diffTrees add tree-sitter-bogl@0.3.7
+109 silly decomposeActions action count 16
+110 silly decomposeActions fetch nan@2.14.2
+111 silly decomposeActions extract nan@2.14.2
+112 silly decomposeActions test nan@2.14.2
+113 silly decomposeActions preinstall nan@2.14.2
+114 silly decomposeActions build nan@2.14.2
+115 silly decomposeActions install nan@2.14.2
+116 silly decomposeActions postinstall nan@2.14.2
+117 silly decomposeActions finalize nan@2.14.2
+118 silly decomposeActions fetch tree-sitter-bogl@0.3.7
+119 silly decomposeActions extract tree-sitter-bogl@0.3.7
+120 silly decomposeActions test tree-sitter-bogl@0.3.7
+121 silly decomposeActions preinstall tree-sitter-bogl@0.3.7
+122 silly decomposeActions build tree-sitter-bogl@0.3.7
+123 silly decomposeActions install tree-sitter-bogl@0.3.7
+124 silly decomposeActions postinstall tree-sitter-bogl@0.3.7
+125 silly decomposeActions finalize tree-sitter-bogl@0.3.7
+126 silly runTopLevelLifecycles Starting
+127 silly executeActions Starting
+128 silly install executeActions
+129 silly doSerial global-install 0
+130 silly doParallel fetch 2
+131 verbose correctMkdir /Users/Bfriedman/.npm/_locks correctMkdir not in flight; initializing
+132 verbose lock using /Users/Bfriedman/.npm/_locks/staging-07823d7c1dbbf519.lock for /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging
+133 silly doParallel extract 2
+134 silly extract nan@2.14.2
+135 silly extract tree-sitter-bogl@0.3.7
+136 verbose unbuild node_modules/.staging/nan-65da4c08
+137 verbose unbuild node_modules/.staging/tree-sitter-bogl-35b73f42
+138 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08 is being purged from base /Users/Bfriedman/OSU/Capstone/language-bogl
+139 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08
+140 verbose tar unpack /Users/Bfriedman/.npm/nan/2.14.2/package.tgz
+141 verbose tar unpacking to /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08
+142 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08 is being purged
+143 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08
+144 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42 is being purged from base /Users/Bfriedman/OSU/Capstone/language-bogl
+145 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42
+146 silly gunzTarPerm modes [ '755', '644' ]
+147 verbose tar unpack /Users/Bfriedman/.npm/tree-sitter-bogl/0.3.7/package.tgz
+148 verbose tar unpacking to /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42
+149 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42 is being purged
+150 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42
+151 silly gunzTarPerm modes [ '755', '644' ]
+152 silly gunzTarPerm extractEntry package.json
+153 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+154 silly gunzTarPerm extractEntry package.json
+155 silly gunzTarPerm extractEntry CHANGELOG.md
+156 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+157 silly gunzTarPerm extractEntry README.md
+158 silly gunzTarPerm extractEntry grammar.js
+159 silly gunzTarPerm extractEntry include_dirs.js
+160 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+161 silly gunzTarPerm extractEntry LICENSE.md
+162 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+163 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+164 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+165 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+166 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+167 silly gunzTarPerm extractEntry index.js
+168 silly gunzTarPerm extractEntry grammars/bogl.cson
+169 silly gunzTarPerm extractEntry nan_callbacks.h
+170 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+171 silly gunzTarPerm extractEntry bogl_examples/adventure.bgl
+172 silly gunzTarPerm extractEntry bogl_examples/e1.bgl
+173 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+174 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+175 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+176 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+177 silly gunzTarPerm extractEntry build/Makefile
+178 silly gunzTarPerm extractEntry nan_converters.h
+179 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+180 silly gunzTarPerm extractEntry nan_define_own_property_helper.h
+181 silly gunzTarPerm modified mode [ 'nan_define_own_property_helper.h', 436, 420 ]
+182 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/tree_sitter_BoGL_binding/bindings/node/binding.o.d
+183 silly gunzTarPerm extractEntry build/Release/.deps/Release/obj.target/tree_sitter_BoGL_binding/src/parser.o.d
+184 silly gunzTarPerm extractEntry build/Release/.deps/Release/tree_sitter_BoGL_binding.node.d
+185 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+186 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+187 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+188 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+189 silly gunzTarPerm extractEntry nan_json.h
+190 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+191 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+192 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+193 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+194 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+195 silly gunzTarPerm extractEntry nan_new.h
+196 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+197 silly gunzTarPerm extractEntry nan_object_wrap.h
+198 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+199 silly gunzTarPerm extractEntry build/Release/obj.target/tree_sitter_BoGL_binding/bindings/node/binding.o
+200 silly gunzTarPerm extractEntry build/Release/obj.target/tree_sitter_BoGL_binding/src/parser.o
+201 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+202 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+203 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+204 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+205 silly gunzTarPerm extractEntry build/Release/tree_sitter_BoGL_binding.node
+206 silly gunzTarPerm extractEntry nan_private.h
+207 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+208 silly gunzTarPerm extractEntry nan_string_bytes.h
+209 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+210 silly gunzTarPerm extractEntry build/binding.Makefile
+211 silly gunzTarPerm extractEntry build/gyp-mac-tool
+212 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+213 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+214 silly gunzTarPerm extractEntry nan_weak.h
+215 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+216 silly gunzTarPerm extractEntry nan.h
+217 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+218 silly gunzTarPerm extractEntry build/tree_sitter_BoGL_binding.target.mk
+219 silly gunzTarPerm extractEntry Cargo.toml
+220 silly gunzTarPerm extractEntry README.md
+221 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+222 silly gunzTarPerm extractEntry doc/asyncworker.md
+223 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+224 silly gunzTarPerm extractEntry doc/buffers.md
+225 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+226 silly gunzTarPerm extractEntry doc/callback.md
+227 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+228 silly gunzTarPerm extractEntry doc/converters.md
+229 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+230 silly gunzTarPerm extractEntry doc/errors.md
+231 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+232 silly gunzTarPerm extractEntry binding.gyp
+233 silly gunzTarPerm extractEntry src/grammar.json
+234 silly gunzTarPerm extractEntry doc/json.md
+235 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+236 silly gunzTarPerm extractEntry doc/maybe_types.md
+237 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+238 silly gunzTarPerm extractEntry src/node-types.json
+239 silly gunzTarPerm extractEntry src/parser.c
+240 silly gunzTarPerm extractEntry doc/methods.md
+241 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+242 silly gunzTarPerm extractEntry doc/new.md
+243 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+244 silly gunzTarPerm extractEntry doc/node_misc.md
+245 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+246 silly gunzTarPerm extractEntry doc/object_wrappers.md
+247 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+248 silly gunzTarPerm extractEntry src/tree_sitter/parser.h
+249 silly gunzTarPerm extractEntry package-lock.json
+250 silly gunzTarPerm extractEntry bindings/node/index.js
+251 silly gunzTarPerm extractEntry bindings/node/binding.cc
+252 silly gunzTarPerm extractEntry doc/persistent.md
+253 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+254 silly gunzTarPerm extractEntry doc/scopes.md
+255 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+256 silly gunzTarPerm extractEntry doc/script.md
+257 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+258 silly gunzTarPerm extractEntry doc/string_bytes.md
+259 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+260 silly gunzTarPerm extractEntry doc/v8_internals.md
+261 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+262 silly gunzTarPerm extractEntry doc/v8_misc.md
+263 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+264 silly gunzTarPerm extractEntry tools/1to2.js
+265 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+266 silly gunzTarPerm extractEntry tools/package.json
+267 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+268 silly gunzTarPerm extractEntry tools/README.md
+269 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+270 silly gunzTarPerm extractEntry bindings/rust/build.rs
+271 silly gunzTarPerm extractEntry bindings/rust/lib.rs
+272 silly gunzTarPerm extractEntry queries/highlights.scm
+273 silly gunzTarPerm extractEntry queries/injections.scm
+274 silly gunzTarPerm extractEntry queries/locals.scm
+275 silly gunzTarPerm extractEntry queries/tags.scm
+276 silly gunzTarPerm extractEntry test/corpus/ifthenelse.txt
+277 silly gunzTarPerm extractEntry test/corpus/adventure.txt
+278 silly gunzTarPerm extractEntry test/corpus/board2.txt
+279 silly gunzTarPerm extractEntry test/corpus/board3.txt
+280 silly gunzTarPerm extractEntry test/corpus/comments1.txt
+281 silly gunzTarPerm extractEntry test/corpus/connect4.txt
+282 silly gunzTarPerm extractEntry test/corpus/game_only.txt
+283 silly gunzTarPerm extractEntry test/corpus/board1.txt
+284 silly gunzTarPerm extractEntry test/corpus/mixed.txt
+285 silly gunzTarPerm extractEntry test/corpus/negative_number.txt
+286 silly gunzTarPerm extractEntry test/corpus/simple_game.txt
+287 silly gunzTarPerm extractEntry test/corpus/testgame_1.txt
+288 silly gunzTarPerm extractEntry test/corpus/types.txt
+289 silly gunzTarPerm extractEntry test/corpus/while.txt
+290 silly gunzTarPerm extractEntry test/highlight/h1.bgl
+291 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08/node_modules is being purged
+292 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08/node_modules
+293 silly gentlyRm /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42/node_modules is being purged
+294 verbose gentlyRm don't care about contents; nuking /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42/node_modules
+295 silly doParallel preinstall 2
+296 silly preinstall nan@2.14.2 /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08
+297 info lifecycle nan@2.14.2~preinstall: nan@2.14.2
+298 silly preinstall tree-sitter-bogl@0.3.7 /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42
+299 info lifecycle tree-sitter-bogl@0.3.7~preinstall: tree-sitter-bogl@0.3.7
+300 silly lifecycle nan@2.14.2~preinstall: no script for preinstall, continuing
+301 silly lifecycle tree-sitter-bogl@0.3.7~preinstall: no script for preinstall, continuing
+302 silly doReverseSerial remove 0
+303 silly doSerial move 0
+304 silly doSerial finalize 2
+305 silly finalize /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/nan
+306 silly finalize /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/tree-sitter-bogl
+307 silly doSerial build 2
+308 silly build nan@2.14.2
+309 info linkStuff nan@2.14.2
+310 silly linkStuff nan@2.14.2 has /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules as its parent node_modules
+311 verbose linkBins nan@2.14.2
+312 verbose linkMans nan@2.14.2
+313 silly build tree-sitter-bogl@0.3.7
+314 info linkStuff tree-sitter-bogl@0.3.7
+315 silly linkStuff tree-sitter-bogl@0.3.7 has /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules as its parent node_modules
+316 verbose linkBins tree-sitter-bogl@0.3.7
+317 verbose linkMans tree-sitter-bogl@0.3.7
+318 silly doSerial global-link 0
+319 silly doParallel update-linked 0
+320 silly doSerial install 2
+321 silly install nan@2.14.2 /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/nan-65da4c08
+322 info lifecycle nan@2.14.2~install: nan@2.14.2
+323 silly lifecycle nan@2.14.2~install: no script for install, continuing
+324 silly install tree-sitter-bogl@0.3.7 /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging/tree-sitter-bogl-35b73f42
+325 info lifecycle tree-sitter-bogl@0.3.7~install: tree-sitter-bogl@0.3.7
+326 verbose lifecycle tree-sitter-bogl@0.3.7~install: unsafe-perm in lifecycle true
+327 verbose lifecycle tree-sitter-bogl@0.3.7~install: PATH: /Users/Bfriedman/.nvm/versions/node/v6.11.1/lib/node_modules/npm/bin/node-gyp-bin:/Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/tree-sitter-bogl/node_modules/.bin:/Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.bin:/Users/Bfriedman/.gem/ruby/2.7.1/bin:/Users/Bfriedman/.rbenv/shims:/Users/Bfriedman/.local/bin:/Applications/SWI-Prolog.app/Contents/MacOS:/Users/Bfriedman/.jenv/shims:/Users/Bfriedman/.jenv/bin:/usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/bin:/Users/Bfriedman/Library/Haskell/bin:/Users/Bfriedman/PostgreSQL/pg95/bin:/Users/Bfriedman/.rvm/gems/ruby-2.3.3/bin:/Users/Bfriedman/.rvm/gems/ruby-2.3.3@global/bin:/Users/Bfriedman/.rvm/rubies/ruby-2.3.3/bin:/Users/Bfriedman/.nvm/versions/node/v6.11.1/bin:/Users/Bfriedman/android-sdk-macosx/platform-tools:.:/Users/Bfriedman/android-sdk-macosx/tools:/Users/Bfriedman/phantomjs-2.1.1-macosx/bin:/usr/local/pngcrush:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Users/Bfriedman/OSU/Capstone/tree-sitter-bogl/node_modules/.bin/:/Users/Bfriedman/.rvm/bin
+328 verbose lifecycle tree-sitter-bogl@0.3.7~install: CWD: /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/tree-sitter-bogl
+329 silly lifecycle tree-sitter-bogl@0.3.7~install: Args: [ '-c', 'node-gyp rebuild' ]
+330 silly lifecycle tree-sitter-bogl@0.3.7~install: Returned: code: 1  signal: null
+331 info lifecycle tree-sitter-bogl@0.3.7~install: Failed to exec install script
+332 verbose unlock done using /Users/Bfriedman/.npm/_locks/staging-07823d7c1dbbf519.lock for /Users/Bfriedman/OSU/Capstone/language-bogl/node_modules/.staging
+333 silly rollbackFailedOptional Starting
+334 silly rollbackFailedOptional Finishing
+335 silly runTopLevelLifecycles Finishing
+336 silly install printInstalled
+337 warn language-bogl@0.1.0 No repository field.
+338 verbose If you need help, you may report this error at:
+338 verbose     <https://github.com/npm/npm/issues>
+339 verbose stack Error: tree-sitter-bogl@0.3.7 install: `node-gyp rebuild`
+339 verbose stack Exit status 1
+339 verbose stack     at EventEmitter.<anonymous> (/Users/Bfriedman/.nvm/versions/node/v6.11.1/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+339 verbose stack     at emitTwo (events.js:106:13)
+339 verbose stack     at EventEmitter.emit (events.js:191:7)
+339 verbose stack     at ChildProcess.<anonymous> (/Users/Bfriedman/.nvm/versions/node/v6.11.1/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+339 verbose stack     at emitTwo (events.js:106:13)
+339 verbose stack     at ChildProcess.emit (events.js:191:7)
+339 verbose stack     at maybeClose (internal/child_process.js:891:16)
+339 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+340 verbose pkgid tree-sitter-bogl@0.3.7
+341 verbose cwd /Users/Bfriedman/OSU/Capstone/language-bogl
+342 error Darwin 19.6.0
+343 error argv "/Users/Bfriedman/.nvm/versions/node/v6.11.1/bin/node" "/Users/Bfriedman/.nvm/versions/node/v6.11.1/bin/npm" "install" "--save" "tree-sitter-bogl"
+344 error node v6.11.1
+345 error npm  v3.10.10
+346 error code ELIFECYCLE
+347 error tree-sitter-bogl@0.3.7 install: `node-gyp rebuild`
+347 error Exit status 1
+348 error Failed at the tree-sitter-bogl@0.3.7 install script 'node-gyp rebuild'.
+348 error Make sure you have the latest version of node.js and npm installed.
+348 error If you do, this is most likely a problem with the tree-sitter-bogl package,
+348 error not with npm itself.
+348 error Tell the author that this fails on your system:
+348 error     node-gyp rebuild
+348 error You can get information on how to open an issue for this project with:
+348 error     npm bugs tree-sitter-bogl
+348 error Or if that isn't available, you can get their info via:
+348 error     npm owner ls tree-sitter-bogl
+348 error There is likely additional logging output above.
+349 verbose exit [ 1, true ]

@@ -1,0 +1,5 @@
+'.source.bogl':
+  'editor':
+    'tabLength': 4
+    'commentStart': '-- '
+    'preferredLineLength': 76

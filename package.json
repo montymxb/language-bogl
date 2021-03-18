@@ -1,0 +1,14 @@
+{
+  "name": "language-bogl",
+  "version": "0.1.0",
+  "description": "BoGL support in Atom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tree-sitter-bogl": "^0.3.7"
+  }
+}
