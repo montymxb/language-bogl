@@ -6,28 +6,38 @@ type: 'tree-sitter'
 parser: 'tree-sitter-bogl'
 
 scopes:
+  'game_def > upperIdentifier': 'bogl.gameName',
+
   '''
-  game_def > upperIdentifier,
   gen_type_def > upperIdentifier,
   btype > upperIdentifier,
+  ''': 'bogl.type',
+
+  'app > identifier': 'bogl.eqIdentifier',
+
+  '''
   etype > upperIdentifier,
-  aexpr > upperIdentifier,
-  aexpr > bool,
-  ''' : 'entity.name'
+  aexpr > upperIdentifier
+  ''': 'bogl.value',
 
-  'identifier': 'entity.name'
+  'comment': 'bogl.comment',
 
-  'binop': 'builtin'
+  'identifier': 'bogl.identifier'
 
-  'number': 'type.integer'
+  'binop': 'bogl.binop'
 
-  'bool': 'type.bool'
+  'number': 'bogl.value'
+
+  '''
+  "True",
+  "False"
+  ''': 'bogl.value'
 
   '''
   signature > identifier,
   equation > identifier,
   board_eq > identifier
-  ''': 'entity.name.function'
+  ''': 'bogl.eqIdentifier'
 
   '''
   "Int",
@@ -37,7 +47,20 @@ scopes:
   "Array",
   "Content",
   "Player"
-  ''' : 'builtin.name'
+  ''' : 'bogl.type'
+
+  '''
+  "game",
+  "type",
+  "of",
+  "let",
+  "in",
+  "if",
+  "then",
+  "else",
+  "while",
+  "do"
+  ''': 'bogl.keyword'
 
 folds: [
   {

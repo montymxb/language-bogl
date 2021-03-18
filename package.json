@@ -6,7 +6,9 @@
   "homepage": "https://github.com/montymxb/tree-sitter-bogl.git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devBuild": "npm install && ./node_modules/.bin/electron-rebuild --version 6",
+    "dev": "npm install && ./node_modules/.bin/electron-rebuild --version 6 && atom --dev ."
   },
   "keywords": [
     "bogl",
@@ -20,9 +22,13 @@
   "author": "Benjamin Wilson Friedman",
   "license": "ISC",
   "dependencies": {
-    "tree-sitter-bogl": "^0.3.11"
+    "tree-sitter-bogl": "^0.3.14"
   },
   "engines": {
     "atom": ">=1.45.0 <2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^12.0.1",
+    "electron-rebuild": "2.3.5"
   }
 }
