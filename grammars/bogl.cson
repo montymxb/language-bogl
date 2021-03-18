@@ -6,4 +6,49 @@ type: 'tree-sitter'
 parser: 'tree-sitter-bogl'
 
 scopes:
+  '''
+  game_def > upperIdentifier,
+  gen_type_def > upperIdentifier,
+  btype > upperIdentifier,
+  etype > upperIdentifier,
+  aexpr > upperIdentifier,
+  aexpr > bool,
+  ''' : 'entity.name'
+
+  'identifier': 'entity.name'
+
+  'binop': 'builtin'
+
   'number': 'type.integer'
+
+  'bool': 'type.bool'
+
+  '''
+  signature > identifier,
+  equation > identifier,
+  board_eq > identifier
+  ''': 'entity.name.function'
+
+  '''
+  "Int",
+  "Bool",
+  "Input",
+  "Board",
+  "Array",
+  "Content",
+  "Player"
+  ''' : 'builtin.name'
+
+folds: [
+  {
+    type: 'comment'
+  }
+
+  {
+    type: 'value_def'
+  }
+]
+
+comments:
+  start: '{- '
+  end: ' -}'
